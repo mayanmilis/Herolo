@@ -121,30 +121,30 @@ render(){
                  <div className='AddMovieModal'>   
                             <div>   
                                 <div>Title</div>
-                                <input type='text' id='Title' onChange={this.onChangeHandler} value={this.state.Title}/>
+                                <input type='text' id='Title' onChange={this.onChangeHandler} value={this.state.Title} placeholder=' Add movie title'/>
                                 <div className='Error' style={{display: MovieErrorDisplay}}>Movie is already exists</div>
                             </div>
                             <div>   
                                 <div>Year</div>
-                                <input type='text' id='Year' onChange={this.onChangeHandler}  value={this.state.Year}/>
+                                <input type='text' id='Year' onChange={this.onChangeHandler}  value={this.state.Year} placeholder=' Published year'/>
                                 <div className='Error' style={{display: YearErrorDisplay}}>Number between 1900-2019</div>
                             </div>
                             <div>   
                                 <div>Genre</div>
-                                <input type='text' id='Genre'  onChange={this.onChangeHandler}  value={this.state.Genre}/>
+                                <input type='text' id='Genre'  onChange={this.onChangeHandler}  value={this.state.Genre} placeholder=' Horror, Comedy...'/>
                             </div>
                             <div>   
                                 <div>Runtime</div>
-                                <input type='text' id='Runtime'  onChange={this.onChangeHandler}  value={this.state.Runtime}/>
+                                <input type='text' id='Runtime'  onChange={this.onChangeHandler}  value={this.state.Runtime} placeholder=' Minutes length'/>
                                 <div className='Error' style={{display: RuntimeErrorDisplay}}>Number between 0-500</div>
                             </div>
                             <div>   
                                 <div>Director</div>
-                                <input type='text' id='Director' onChange={this.onChangeHandler}  value={this.state.Director}/>
+                                <input type='text' id='Director' onChange={this.onChangeHandler}  value={this.state.Director} placeholder=' Director name'/>
                             </div>
                             <div>   
                                 <div>Poster</div>
-                                <input type='text' id='Poster' onChange={this.onChangeHandler}  value={this.state.Poster}/>
+                                <input type='text' id='Poster' onChange={this.onChangeHandler}  value={this.state.Poster} placeholder=' Add image address'/>
                             </div>
                             </div>
                             <div>
