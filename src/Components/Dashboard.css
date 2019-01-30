@@ -1,0 +1,367 @@
+.Container{ 
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    
+
+}
+
+.Container ul{   
+    list-style: none;
+}
+
+.MainTitle{ 
+    margin-left: 10px;
+    font-size: 30px;
+    color: rgb(241, 0, 0);
+}
+
+.SubTitle{  
+    margin-left: 10px;
+    font-size: 40px;
+    color: white;
+}
+
+.AddNewMovieButton{    
+    width: 100%;
+    background-color: rgb(241, 0, 0);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.AddNewMovieButton button{  
+    margin-left: 10px;  
+    border-radius: 5px;
+    padding: 10px;
+    border: 0;
+    font-weight: 700;
+    color:white;
+    background-color: rgb(58, 58, 58);
+    transition-duration: 200ms;
+}
+
+.AddNewMovieButton button:hover{    
+    transition-duration: 200ms;
+    background-color: rgb(24, 24, 24);
+    cursor: pointer;
+}
+
+.AddMovieModalButton{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AddMovieModalButton button{ 
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 0;
+    font-weight: 700;
+    color:white;
+    background-color: rgb(58, 58, 58);
+    transition-duration: 200ms;
+}
+
+.AddMovieModalButton button:hover{   
+    transition-duration: 200ms;
+    background-color: rgb(24, 24, 24);
+    cursor: pointer;
+}
+
+.AddMovieModal{  
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+
+.AddMovieModal input{  
+border-radius: 5px;
+border: 0;
+}
+.AddMovieModal button{  
+    border-radius: 5px;
+    border: 0;
+    justify-content: center;
+    align-items: center;
+    }
+.Fade{  
+    padding: 0;
+    width: 470px;
+    height: 220px;
+    position: absolute;
+    transition-duration: 200ms;
+    
+}
+
+.Fade:hover{ 
+    background-color: rgb(14, 14, 14);
+    transition-duration: 200ms;
+}
+
+
+.MoviesContainer {    
+    width: 1550px;
+    margin: auto;
+    
+}
+
+.Movie{ 
+    width: 470px;
+    height: 220px; 
+    background-color: rgb(20, 20, 20);
+    float: left;
+    margin: 10px;
+    
+
+}
+
+.Movie ul{  
+    list-style: none;
+    
+}
+
+
+.Header{  
+    margin: 10px;
+    float: left; 
+    height: 200px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    
+
+    /* border: 1px solid rgb(238, 255, 0); */
+    
+}
+.TitleContainer{ 
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    float: right;
+    /* border: 1px solid orange; */
+
+}
+.Title{ 
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+        /* border: 1px solid orange; */
+}
+.MovieGenre {  
+    float: left; 
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 14px;
+    /* border: 1px solid greenyellow; */
+    
+}
+.MovieGenre ul{ 
+    padding: 0;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.MovieGenre li{   
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+    float: left;
+    margin: 3px;
+    background-color: rgb(58, 58, 58);
+    border-radius: 5px;
+    padding:5px;
+}
+.Poster{    
+    width:150px;
+    height: 200px;;
+    float: left;
+}
+
+.Rest{ 
+    font-weight: 400;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.Rest ul{   
+    margin-top: 10px;
+    /* border: 1px solid rgb(0, 140, 255); */
+    padding: 0
+}
+
+.Buttons{   
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* border: 1px solid rgb(0, 140, 255); */
+}
+.Buttons div{   
+    float: left;
+}
+
+.Edit button{  
+    text-align: center;
+    width: 80px;
+    background-color: rgb(255, 188, 62);
+    color: white;
+    font-weight: 700;
+    border: 0;
+    transition-duration: 200ms;
+}
+.Edit button:hover{  
+    background-color: white;
+    color: rgb(228, 168, 58);
+    cursor: pointer;
+    transition-duration: 200ms;
+}
+
+.Remove button{
+    text-align: center;
+    width: 80px;
+    background-color: rgb(251, 75, 75);
+    color: white;
+    font-weight: 700;
+    border: 0;
+    transition-duration: 200ms;
+}
+.Remove button:hover{  
+    background-color: white;  
+    color: rgb(207, 61, 61);
+    cursor: pointer;
+    transition-duration: 200ms;
+}
+
+.EditContainer{  
+    padding: 0;
+    width: 470px;
+    height: 220px;
+    position: absolute;
+
+}
+
+.EditButton{  
+    width: 50%;
+    margin: auto;
+
+}
+.EditButton button{ 
+    width: 100%;
+    text-align: center;
+    background-color: rgb(80, 197, 59);
+    color: white;
+    font-weight: 700;
+    border: 0;
+
+    transition-duration: 200ms;
+}
+.EditButton button:hover{ 
+    background-color: white;
+    color:  rgb(80, 197, 59);
+    transition-duration: 200ms;
+    cursor: pointer;
+}
+
+.EditFormModal{ 
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    padding-left: 2px;
+    PADDING-TOP: 2px;
+    width: 470px;
+    height: 220px;
+    position: absolute;
+    color: white;
+    background-color: rgb(20, 20, 20);
+}
+
+.EditFormModal input{  
+    margin: 2px;
+    border-radius: 5px;
+    border: 0;
+    }
+
+.EditButtons{
+    display: flex;
+    justify-content: center;
+    
+}
+.EditButtons button{   
+    width: 80px;
+    transition-duration: 200ms;
+}
+.SaveButton button{    
+    background-color: green;
+    border: 0;
+    font-weight: 700;
+    color: white;
+    
+}
+.SaveButton button:hover{    
+    background-color: white;
+    color:green; 
+    border: 0;
+    cursor: pointer;
+}
+
+.CancelButton button{    
+    background-color: rgb(207, 61, 61);
+    border: 0;
+    font-weight: 700;
+    color: white;
+}
+.CancelButton button:hover{    
+    background-color: white;
+    color:rgb(207, 61, 61); 
+    border: 0;
+    cursor: pointer;
+}
+
+.Error{ 
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.lds-ring {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .lds-ring div {
+
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin: 6px;
+    border: 6px solid #fff;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #fff transparent transparent transparent;
+  }
+  .lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+  .lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  .lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
