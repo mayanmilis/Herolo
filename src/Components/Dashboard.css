@@ -138,7 +138,7 @@ border: 1px solid rgb(32, 32, 32);
     color: white;
     
 
-    /* border: 1px solid rgb(238, 255, 0); */
+
     
 }
 .TitleContainer{ 
@@ -146,14 +146,14 @@ border: 1px solid rgb(32, 32, 32);
     flex-direction: column;
     width:300px;
     float: right;
-    /* border: 1px solid orange; */
+
 
 }
 .Title{ 
     margin-left: 10px;
     margin-right: 10px;
     font-size: 16px;
-        /* border: 1px solid orange; */
+
 }
 .MovieGenre {  
     float: left; 
@@ -161,7 +161,7 @@ border: 1px solid rgb(32, 32, 32);
     flex-direction: column;
     color: white;
     font-size: 14px;
-    /* border: 1px solid greenyellow; */
+
     
 }
 .MovieGenre ul{ 
@@ -174,7 +174,7 @@ border: 1px solid rgb(32, 32, 32);
 .MovieGenre li{   
     display: flex;
     flex-wrap: wrap;
-    /* border: 1px solid red; */
+
     float: left;
     margin: 3px;
     background-color: rgb(58, 58, 58);
@@ -195,7 +195,7 @@ border: 1px solid rgb(32, 32, 32);
 }
 .Rest ul{   
     margin-top: 10px;
-    /* border: 1px solid rgb(0, 140, 255); */
+
     padding: 0
 }
 
@@ -203,7 +203,7 @@ border: 1px solid rgb(32, 32, 32);
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    /* border: 1px solid rgb(0, 140, 255); */
+
 }
 .Buttons div{   
     float: left;
@@ -276,7 +276,7 @@ border: 1px solid rgb(32, 32, 32);
     flex-wrap: wrap;
     font-size: 12px;
     padding-left: 2px;
-    PADDING-TOP: 2px;
+    padding-top: 2px;
     width: 470px;
     height: 220px;
     position: absolute;
@@ -285,15 +285,14 @@ border: 1px solid rgb(32, 32, 32);
 }
 
 .EditFormModal input{  
-    margin: 2px;
+    margin: 10px;
     border-radius: 5px;
     border: 0;
     }
 
 .EditButtons{
     display: flex;
-    justify-content: center;
-    
+    margin: auto;
 }
 .EditButtons button{   
     width: 80px;
