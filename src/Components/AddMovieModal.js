@@ -68,9 +68,8 @@ class AddMovie extends Component{
 
             })
             if(Title&&Year&&Genre&&Director&&Poster !== '' &&YearErr!==true &&RuntimeErr!==true && Year>1900&&Year<2019 && Runtime>0&&Runtime<500 &&MovieErr===false){ 
-            Title= strOrganize(Title)
-
-            
+            Title = strOrganize(Title)
+            Genre = strOrganize(Genre)
             Runtime= this.state.Runtime + ' min' 
             Director = strOrganize(Director)
             let imdbID = this.state.imdbID+1
