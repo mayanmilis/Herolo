@@ -19,14 +19,14 @@ class Dashboard extends Component{
         let list = [];
         let initialMoviesDetails=[]
         try {
-            const movies = await axios.get(`http://www.omdbapi.com/?apikey=1d80d066&s=turtle`);
+            const movies = await axios.get(`https://www.omdbapi.com/?apikey=1d80d066&s=turtle`);
             initialMoviesDetails = movies.data.Search;
         } catch (err) {
             this.setState({isLoaded: false});
         }
         for(let i = 0; i < initialMoviesDetails.length; i++) {
             try{
-                const movieDetails = await axios.get(`http://www.omdbapi.com/?apikey=1d80d066&i=${initialMoviesDetails[i].imdbID}`)
+                const movieDetails = await axios.get(`https://www.omdbapi.com/?apikey=1d80d066&i=${initialMoviesDetails[i].imdbID}`)
                 list.push(movieDetails.data);
             } catch (err) {
                 console.log(initialMoviesDetails[i].Title,'has failed')
