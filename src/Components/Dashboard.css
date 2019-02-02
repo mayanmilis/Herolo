@@ -72,8 +72,10 @@
 }
 
 .AddMovieModal{  
+    width: 1550px;
     display: flex;
     justify-content: center;
+    margin: auto;
     color: white;
     text-align: center;
     font-weight: 700;
