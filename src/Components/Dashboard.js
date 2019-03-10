@@ -82,13 +82,13 @@ class Dashboard extends Component{
         return( 
             <div className='Container'>            
             <div className='MainTitle'>   
-                Herolo-Cinema
+                Movies List
             </div>
             <div className='SubTitle'>   
                 Try, Stay.
             </div>
             <div className='AddNewMovieButton'>   
-                <button onClick={this.addMovieDisplay}>Add New Movie</button>
+                <button onClick={this.addMovieDisplay}>ADD NEW MOVIE</button>
             </div>
             <div className='AddMovieModal'>  
             <AddMovie

@@ -120,7 +120,10 @@ class Movie extends Component{
 
                       <div className='Header'>
                       <div className='TitleContainer'>   
-                          <div className='Title'>{this.state.Title}({this.state.Year})</div>
+                          <div className='Title'>
+                            <div id='name'>{this.state.Title}</div>
+                            <div id='year'>({this.state.Year})</div>
+                          </div>
                               <div className='MovieGenre'>
                                   <ul>    
                                       {this.state.Genre&&this.state.Genre.split(',').map((item,index) =>{   
