@@ -72,6 +72,7 @@ class Movie extends Component{
     }
 
     render(){   
+        console.log(this.props)
         const {id, remove} = this.props
         let display 
         let opacity

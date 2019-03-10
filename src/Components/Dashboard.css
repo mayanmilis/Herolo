@@ -150,6 +150,7 @@ border: 1px solid rgb(32, 32, 32);
     float: right;
 
 
+
 }
 .Title{ 
     margin-left: 10px;
@@ -157,6 +158,9 @@ border: 1px solid rgb(32, 32, 32);
     font-size: 16px;
     overflow: hidden;
     text-overflow: ellipsis;
+    height: 50px;
+    
+
 
 }
 .MovieGenre {  

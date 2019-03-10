@@ -4,6 +4,8 @@ import './Dashboard.css'
 import axios from 'axios'
 import { connect } from 'react-redux'
 import AddMovie from './AddMovieModal'
+import {addMovie} from '../Store/Actions'
+import {removeMovie} from '../Store/Actions'
 
 class Dashboard extends Component{   
     state = {   
@@ -96,7 +98,7 @@ class Dashboard extends Component{
                 </div> 
             <div className='MoviesContainer'>   
                 <ul>    
-                    {movies && movies.map((movie) =>{  
+                    {movies&&movies.map((movie) =>{  
                         return (    
                             <li key={movie.imdbID}>
                                 <Movie  
@@ -128,8 +130,8 @@ const mapStateToProps = (state) =>{
 
 const mapDispatchToProps = (dispatch) =>{   
     return{ 
-        addMovie: (list) => dispatch({type: 'ADD_MOVIE', list: list}),
-        removeMovie: (list) => {dispatch({type: 'REMOVE_MOVIE', list: list})}
+        addMovie: (list) => dispatch(addMovie(list)),
+        removeMovie: (list) => dispatch(removeMovie(list))
     }
 }
 
